@@ -23,5 +23,5 @@ public:
 	void PushObject(LPGAMEOBJECT object);
 	void InsertObject(LPGAMEOBJECT object);
 	int GetListObjectSize() { return objects.size(); };
-	void PutItem()
+	//void PutItem()
 }

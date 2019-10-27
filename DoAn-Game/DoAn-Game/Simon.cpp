@@ -156,7 +156,7 @@ void Simon::Update(DWORD dt, vector<LPGAMEOBJECT> *Objects, vector<LPGAMEOBJECT*
 
 					// lên đời whip
 					if (whip->GetState() == NORMAL_WHIP) whip->SetState(SHORT_CHAIN);
-					else if (whip->GetState() == SHORT_CHAIN) whip->SetState(LONG_CHAIN);
+					else if (whip->GetState() == SHORT_CHAIN) whip->SetState(LONG_CHAIN); 
 				}
 			}
 			else
