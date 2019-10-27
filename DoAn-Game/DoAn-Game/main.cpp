@@ -160,15 +160,7 @@ LRESULT CALLBACK WinProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 void Update(DWORD dt)
 {
-	//vector<LPGAMEOBJECT*> coObjects; // truyền con trỏ cấp 2, để trong hàm update có thể thay đổi trực tiếp đến phần tử của Objects
 
-	//for (int i = 1; i < Objects.size(); i++)
-	//{
-	//	if (dynamic_cast<Items*>(Objects[i]))
-	//		DebugOut(L"xXX   xx  xxxx\n");
-
-	//	coObjects.push_back(&(Objects[i]));
-	//}
 
 	for (int i = 0; i < Objects.size(); i++)
 	{

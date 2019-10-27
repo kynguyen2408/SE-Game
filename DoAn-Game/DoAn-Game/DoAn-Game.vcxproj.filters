@@ -69,9 +69,6 @@
     <ClCompile Include="Dagger.cpp">
       <Filter>GameObjects\Item</Filter>
     </ClCompile>
-    <ClCompile Include="Effect.cpp">
-      <Filter>Framework</Filter>
-    </ClCompile>
     <ClCompile Include="Items.cpp">
       <Filter>GameObjects\Item</Filter>
     </ClCompile>
@@ -80,6 +77,12 @@
     </ClCompile>
     <ClCompile Include="Ground.cpp">
       <Filter>GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes.cpp">
+      <Filter>Framework</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -119,9 +122,6 @@
     <ClInclude Include="Dagger.h">
       <Filter>GameObjects\Item</Filter>
     </ClInclude>
-    <ClInclude Include="Effect.h">
-      <Filter>Framework</Filter>
-    </ClInclude>
     <ClInclude Include="Items.h">
       <Filter>GameObjects\Item</Filter>
     </ClInclude>
@@ -130,6 +130,12 @@
     </ClInclude>
     <ClInclude Include="Ground.h">
       <Filter>GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes.h">
+      <Filter>Framework</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

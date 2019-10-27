@@ -127,6 +127,7 @@
     <ClCompile Include="Ground.cpp" />
     <ClCompile Include="Items.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Scenes.cpp" />
     <ClCompile Include="TileMap.cpp" />
     <ClCompile Include="Whip.cpp" />
     <ClCompile Include="debug.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="Ground.h" />
     <ClInclude Include="Items.h" />
     <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Scenes.h" />
     <ClInclude Include="TileMap.h" />
     <ClInclude Include="Whip.h" />
     <ClInclude Include="debug.h" />

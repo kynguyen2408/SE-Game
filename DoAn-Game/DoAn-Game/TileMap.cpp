@@ -62,7 +62,6 @@ void TileMap::Load_MapData()
 
 	if (fs.fail())
 	{
-		//DebugOut(L"[ERROR] TileMap::Load_MapData failed: ID=%d", ID);
 		fs.close();
 		return;
 	}
@@ -90,15 +89,6 @@ void TileMap::Load_MapData()
 
 
 	fs.close();
-
-	//DebugOut(L"%d %d\n", map_Data.size(), map_Data[0].size());
-
-	//for (int i = 0; i < map_Data.size(); i++) {
-	//	for (int j = 0; j < map_Data[i].size(); j++) {
-	//		DebugOut(L"%d ", map_Data[i][j]);
-	//	}
-	//	DebugOut(L"\n");
-	//}
 }
 
 void TileMap::Draw(int start_col, int end_col)
