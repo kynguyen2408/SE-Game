@@ -33,9 +33,10 @@
 
 # dependencies
 DoAn-Game/Debug/
+DoAn-Game/.vs
 DoAn-Game/.vs/
-DoAn-Game/DoAn-Game/Debug
-*.vs
-*.vscode
+DoAn-Game/DoAn-Game/Debug/
+*.vs/
+*.vscode/
 .vs
 .vscode
